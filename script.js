@@ -104,19 +104,146 @@
 
 //6.	Faça um Programa que leia dois números e mostre se ele é par ou ímpar.
 
-let num1 = parseInt(prompt("Digite um numero"));
-let num2 = parseInt(prompt("Digite outro numero"));
+//let num1 = parseInt(prompt("Digite um numero"));
+//let num2 = parseInt(prompt("Digite outro numero"));
 
-let resto1 = num1 % 2;
-let resto2 = num2 % 2;
+//let resto1 = num1 % 2;
+//let resto2 = num2 % 2;
 
-console.log('1:', resto1, ' 2:', resto2)
-if (resto1 === 0 && resto2 === 0) {
-  console.log("os numeros são pares")
-}
-if (resto1 !== 0 && resto2 !== 0) {
-   console.log("os números são ímpares")
-}
-if(resto1 !== resto2){
-    console.log('os numeros são pares e impares')
-}
+//console.log('1:', resto1, ' 2:', resto2)
+//if (resto1 === 0 && resto2 === 0) {
+//  console.log("os numeros são pares")
+//} else if (resto1 === 1 && resto2 === 1) {
+//   console.log("os números são ímpares")
+//} else {
+//    console.log("há números pares e ímpares")
+//}
+
+//Estruturas de Repetição:
+
+//1.	Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor 
+//seja inválido e continue pedindo até que o usuário informe um valor válido.
+//if (nota >= 0 && nota <= 10) {
+//    console.log(nota)
+//} else {
+//    console.log("nota inválida")
+//}};
+
+//3.	Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao 
+//nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
+
+//while (true) {
+//    let nome = prompt("Digite seu nome:");
+//    let senha = prompt("Digite sua senha"); 
+    
+//    if (nome === senha) {
+//        console.log("A senha deve ser diferente do nome, retorne e preencha as informações corretamentes")
+//    } else {
+//        break
+//    }
+//};
+
+//4.	Faça um programa que imprima na tela os números de 1 a 20, um abaixo do outro. 
+
+//let i = 1
+//for (i = 1; i <= 20 ; i++) {
+
+//    console.log(i)
+//};
+
+//5.	Faça um programa que leia 5 números e informe o maior número.
+
+//let valor1 = parseInt(prompt("digite um numero:"));
+//let valor2 = parseInt(prompt("digite outro numero:"));
+//let valor3 = parseInt(prompt("digite outro numero:"));
+//let valor4 = parseInt(prompt("digite outro numero:"));
+//let valor5 = parseInt(prompt("digite outro numero:"));
+
+//let maiorValor = Math.max(valor1, valor2, valor3, valor4, valor5);
+
+//console.log(maiorValor);
+
+//6.	Faça um programa que leia 5 números e informe a soma e a média dos números.
+
+//let valor1 = parseInt(prompt("digite um numero:"));
+//let valor2 = parseInt(prompt("digite outro numero:"));
+//let valor3 = parseInt(prompt("digite outro numero:"));
+//let valor4 = parseInt(prompt("digite outro numero:"));
+//let valor5 = parseInt(prompt("digite outro numero:"));
+
+//let somaValores = ((valor1 + valor2 + valor3 + valor4 + valor5)/5);
+
+//console.log(somaValores);
+
+//7.	Faça um programa que imprima na tela apenas os números ímpares entre 1 e 50.
+
+//let i = 1
+//for (i = 1; i < 50 ; i++) {
+//  if (i % 2 !== 0) {
+//    console.log(i)
+//  }
+//};
+
+//8.	Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro
+// entre 1 a 10. O usuário deve informar de qual numero ele deseja ver a tabuada. A saída deve 
+//ser conforme o exemplo abaixo:
+
+//a.	Tabuada de 5:
+//b.	5 X 1 = 5
+//c.	5 X 2 = 10
+//d.	...
+//e.	5 X 10 = 50
+
+//let n = 5;
+//let i = 1;
+//for (i = 1; i <= 10; i++) {
+//  let tabuada = n * i;
+//  console.log(tabuada);
+//};
+
+//Desafio FizzBuzz
+// 9.	Dado um número n, para cada número entre 1 e 100, imprime um valor por linha da seguinte
+// maneira:
+
+//for (let i = 1; i <= 100; i++) {
+//    if(i % 3 == 0 && i % 5 == 0){
+//        console.log(" FizzBuzz");
+//    }else if(i % 3 == 0){
+//        console.log("Fizz");
+//    }else if(i % 5 == 0){
+//        console.log("Buzz");
+//    }else {
+//     console.log(i)   }
+//}
+
+// Exercicios Listas:
+
+// 1.	Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
+
+//var inteiros = [1,2,3,4,5];
+//console.log(inteiros);
+
+// 2.	Faça um Programa que leia um vetor de 10 números reais e mostre-os na ordem inversa.
+
+//for (let i = 10; i >= 1 ; i--) {
+//  console.log (i);
+//};
+
+//3.	Faça um Programa que leia 4 notas, mostre as notas e a média na tela.
+
+let notas = [n1, n2, n3, n4];
+
+n1 = parseInt(prompt("Digite a 1 nota: "));
+n2 = parseInt(prompt("Digite a 2 nota: "));
+n3 = parseInt(prompt("Digite a 3 nota: "));
+n4 = parseInt(prompt("Digite a 4 nota: "));
+
+for (let )
+let exibirMedia = ((n1 + n2 + n3 + n4)/4);
+
+alert("Sua média foi " + exibirMedia);
+
+
+
+
+
